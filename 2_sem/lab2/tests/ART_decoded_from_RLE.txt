@@ -1,0 +1,50 @@
+:::::::::::::::::::;.                                                                             ..
+::::::::::::::::::'.                                                                                
+cccccccccccccccc;.                                                                                  
+ccccccccccccccc,.                                                                                   
+lllllllllllll:'                               .                                                     
+llllllllllc;'.                                 .                                       .........    
+oooooool:..                         ...                                            ..,:llllllllcc:,.
+oooooool'                  .......',;:;,;;;'.                                    .;loooooooooooooool
+dddddddc.              '::::lolllooooodddddol:,.....                           .:odddddddddddddddddd
+ddddddd:              ,odddddddddddddddddddddddollcc.                        .,ldddddddddddddddddddd
+ddddddd,             'lddddddddddddddddddddddddddddd,                        ;oddddddddddddddddddddd
+ddddddo,            .cdddddddddddddddddddddddddddddd;                       .ldddddddddddddddddddddd
+ddddddo'            ;odddddddddddddddddddddddddddddd:.                      ;ddddddddddddddddddddddd
+ddddddo'           .cdddddddddddddddddddddddddddddddc.                     .lddddddddddddddddddddddd
+ddddddo,           .odddddddddddddddddddddddddddddddo'                     ;dddddddddddddddddddddddd
+ddddddo'           'odddddddddddddddddddddddddddddddd;                     ;dddddddddddddddddddddddd
+ddddddo'           'odddddddddddddddddddddddddddddddd;                     ;dddddddddddddddddddddddd
+ddddddo'           'odddddddddddddddddddddddddddddddd:.                    ,oddddddddddddddddddddddd
+ddddddo'           .cddddddddddddddddoolc:;;::cclllloc.                    .lddddddddddddddddddddddd
+ddddddc.            .;coddddddddddddl:::;;,,;::cccclll;                     ;ddddddddddddddddddddddd
+dddddo'             ,c::ldddddddddddddddddddddddddddddo,                    'odddddddddddddddddddddd
+dddddc.             .;cloodddddddddddddddddddddooooddddl.   ..              .cdddddddddddddddddddddd
+ddddd:             .   .:oddddddddddddddddooddoooooodddd:.  .,.              'lddddddddddddddddddddd
+ddddd:   ..        ..    .:oddddddddddddoolll:;;;;;;;;:cl:'  ;c.              ,odddddddddddddddddddd
+ddddd:. .:'          .';;'.,ldddddddddddooc,.           ..'..,ll;.            ,odddddddddddddddddddo
+dddddl. .l:           'cll:.'ldddddddddddl,...,;:c:cc:;'..  .,coo,           .',;ldddddddddddddddl:'
+dddddd:..co'          .;c:;,'cdddddddddddc,,'',:cclllllc;;:,. 'ld;              .:cooddddddddool;.  
+ddddddoc,;lc.         .':;,,;ldddddddddddodl;,;;:::::::;;;ldc..:o;              'lolclc:::c:;cll,   
+ddddddddolloc.        ...'',:lodddddddddddddl;;::ccc::;;,:odc..:o:.             ,odddo:,,',';odd;   
+ddddddddddddo;         ',,',codddddddddddddddc::cccccc:;;cllc::ld;.            .:ooollc:;;;coddc.   
+dddddddddddddo;.      .:dlllodddddddddddddddo:,,,;,;:::lccloddddd;             .cll;',;:clodoc'   .:
+ddddddddddddddo;      .:oooddddddddddddddddddolccc:cllodddddddddl'         .   :dddoc:loddo:'    'lo
+ddddddddddddddd:    .. ,lddddddddddddddddddddddddddddddddddddddo;.            .:dddddddoc,.    .;odo
+dddddddddddddddc.   ,;..cllodddddddddddddddddddddddddddddddddddl.             .;lloool;.      'ldddd
+dddddddddddddddo,   ;o;.,lolooooddddddddddddddddddddddddddddddo;              'l:'....     .'coddddd
+ddddddddddddddddo,. ,o;..,ooodddddddddddddddddddddddddddddddddc.              ,ol;.      .;loddddddd
+dddddddddddddddddoc'',.  .,ldddddddddddddddddddddddddddddddddc.               ;dol:;,..,codddddddddd
+dddddddddddddddddddoc'   ..'col::cloodddddddddddddddddddddddl'                ;dddddl;;:codddddddddd
+ddddddddddddddddddodc.      .,lc'.',,;lodddddddddddddddddddo;                 ;odollllolcldddddddddo
+dddddddddddddddddddo,         'cc;;;;;codddddddddddddddddddc.                 ,lllclooc',odddddddddd
+dddddddddddddddddddl.         ..;cllodddddddddddddddddddddo,                  ,lllll:'  .cdddddddddd
+dddddddddddddddddddc.            'lodddddddddddddddddddddd:.                 .:olc,.     ,oddddddddd
+ddddddddddddddddddo,              .:oddddddddddddddddddoll,                  .,,.        .:olllllddo
+ddddddddddddddddddc.               .codddddddddoolllccccll'                              .;clool:ldo
+dddddddddddddddddd:.               .:cclllcc::ccc::clloool'                               .,coddc:lo
+ddddddddddddddddddc.   .           .cdlllc:;;;cc:clllccccl;   .'.                         .;odddo:;:
+ddddddddddddddddddo,  .:;      .'. .:dddddc';cll:coollloolc.   ..                        .,ldddddocc
+dddddddddddddddddddl' .co;.     ;l,.'lddddc. .,lc::loc'... ..                           'cddddddddlc
+ddddddddddddddddddddl,.:doc'.   .col:lddddl'  .:o:,:oc.                               .:odddddddddc;
+dddddddddddddddddddddo::lddoc'.  'ldodddolc,   'lc::lo'                              .cdddddddddddc,

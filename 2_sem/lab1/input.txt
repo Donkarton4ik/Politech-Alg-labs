@@ -1,0 +1,2 @@
+stroka
+I love c++ because it makes people cry
