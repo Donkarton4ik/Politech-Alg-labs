@@ -119,7 +119,7 @@ void Matrix::print_matr(){
     std::cout<<std::endl;
 }
 
-void Matrix::operator=(const Matrix& other){ //Лаба 3 Задание 1.1
+Matrix& Matrix::operator=(const Matrix& other){ //Лаба 3 Задание 1.1
     if(this != &other){
         for(int i=0; i<m_rows; i++){delete [] m_matr[i];}
         delete [] m_matr;
@@ -134,4 +134,5 @@ void Matrix::operator=(const Matrix& other){ //Лаба 3 Задание 1.1
             }
         }
     }
+    return *this;
 }

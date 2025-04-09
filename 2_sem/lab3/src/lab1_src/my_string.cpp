@@ -63,10 +63,11 @@ const char* MyString::get_m_str(){
 }
 
 
-void MyString::operator=(const MyString& other){ //Лаба 3 Задание 1.1
+MyString& MyString::operator=(const MyString& other){ //Лаба 3 Задание 1.1
     if (this != &other){
         delete [] m_str;
         m_str = new char[strlen(other.m_str) + 1];
         strcpy(m_str, other.m_str);
     }
+    return *this;
 }

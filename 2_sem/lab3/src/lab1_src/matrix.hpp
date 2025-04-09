@@ -19,5 +19,5 @@ class Matrix{
 
         void print_matr();
 
-        void operator=(const Matrix& other); //Лаба 3 Задание 1.1
+        Matrix& operator=(const Matrix& other); //Лаба 3 Задание 1.1
 };

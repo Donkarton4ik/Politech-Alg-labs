@@ -15,5 +15,5 @@ class MyString{
 
         const char* get_m_str(); //для 2.4 номера
 
-        void operator=(const MyString& other); //Лаба 3 Задание 1.1
+        MyString& operator=(const MyString& other); //Лаба 3 Задание 1.1
 };
