@@ -136,3 +136,137 @@ Matrix& Matrix::operator=(const Matrix& other){ //Лаба 3 Задание 1.1
     }
     return *this;
 }
+
+Matrix& Matrix::operator+=(const Matrix& other){
+    if (m_rows!=other.m_rows || m_columns!=other.m_columns){
+        throw "Нельзя складывать матрицы разного размера!";
+    }
+
+    for(int i=0; i<m_rows; i++){
+        for(int j=0; j<m_columns; j++){
+            m_matr[i][j] += other.m_matr[i][j];
+        }
+    }
+    return *this;
+}
+
+Matrix& Matrix::operator-=(const Matrix& other){
+    if (m_rows!=other.m_rows || m_columns!=other.m_columns){
+        throw "Нельзя складывать матрицы разного размера!";
+    }
+
+    for(int i=0; i<m_rows; i++){
+        for(int j=0; j<m_columns; j++){
+            m_matr[i][j] -= other.m_matr[i][j];
+        }
+    }
+    return *this;
+}
+
+Matrix& Matrix::operator*=(const Matrix& other){
+    if (m_columns!=other.m_rows){
+        throw "На эту матрицу умножать нельзя!";
+    }
+    
+    Matrix product(m_rows, other.m_columns, 0);
+
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < other.m_columns; j++){
+            for(int k=0; k < m_columns; k++){
+                (product.m_matr)[i][j] += (m_matr)[i][k] * (other.m_matr)[k][j];
+            }
+        }
+    }
+    return *this;
+}
+
+Matrix& Matrix::operator*=(const double multiplier){
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < m_columns; j++){
+            m_matr[i][j] *= multiplier;
+        }
+    }
+    return *this;
+}
+
+Matrix& Matrix::operator/=(const double multiplier){
+    if (multiplier==0){
+        throw "Деление на ноль!";
+    }
+
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < m_columns; j++){
+            m_matr[i][j] /= multiplier;
+        }
+    }
+    return *this;
+}
+
+Matrix Matrix::operator+(const Matrix& other){
+    if (m_rows!=other.m_rows || m_columns!=other.m_columns){
+        throw "Нельзя складывать матрицы разного размера!";
+    }
+
+    Matrix new_matrix(m_rows, m_columns, 0);
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < m_columns; j++){
+            new_matrix.m_matr[i][j] = m_matr[i][j] + other.m_matr[i][j];
+        }
+    }
+    return new_matrix;
+}
+
+Matrix Matrix::operator-(const Matrix& other){
+    if (m_rows!=other.m_rows || m_columns!=other.m_columns){
+        throw "Нельзя вычитать матрицы разного размера!";
+    }
+
+    Matrix new_matrix(m_rows, m_columns, 0);
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < m_columns; j++){
+            new_matrix.m_matr[i][j] = m_matr[i][j] - other.m_matr[i][j];
+        }
+    }
+    return new_matrix;
+}
+
+Matrix Matrix::operator*(const double multiplier){
+    Matrix new_matrix(m_rows, m_columns, 0);
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < m_columns; j++){
+            new_matrix.m_matr[i][j] += m_matr[i][j] * multiplier;
+        }
+    }
+    return new_matrix;
+}
+
+Matrix Matrix::operator/(const double multiplier){
+    if (multiplier==0){
+        throw "Деление на ноль!";
+    }
+
+    Matrix new_matrix(m_rows, m_columns, 0);
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < m_columns; j++){
+            new_matrix.m_matr[i][j] += m_matr[i][j] / multiplier;
+        }
+    }
+    return new_matrix;
+}
+
+Matrix Matrix::operator*(const Matrix& other){
+    if (m_columns!=other.m_rows){
+        throw "На эту матрицу умножать нельзя!";
+    }
+
+    Matrix new_matrix(m_rows, other.m_columns, 0);
+    for(int i=0; i < m_rows; i++){
+        for(int j=0; j < other.m_columns; j++){
+            for(int k=0; k < m_columns; k++){
+                (new_matrix.m_matr)[i][j] += (m_matr)[i][k] * (other.m_matr)[k][j];
+            }
+        }
+    }
+
+    return new_matrix;
+}
